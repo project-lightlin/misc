@@ -1,4 +1,4 @@
-# Supported parameters
+# Supported architectural metrics
 
 ## Individual-scale: tree parameters
 | No| Name | Unit | Computational method |
