@@ -8,7 +8,7 @@
 | 3 |Max branch order | / |  |
 | 4 |Tree height | m | Height difference of the point cloud |
 | 5 | DBH | cm | $\mathrm{DBH} \approx 2\left(r_u + \frac{(r_l-r_u)(h_u-1.3)}{h_u-h_l}\right)$, where $r_l$ ($r_u$) and $h_l$ ($h_u$) are the radius and aboveground height of the lower (upper) section of the trunk segment passing through $1.3 \, \mathrm{m}$ above ground |
-| 6 | Girth | m | The perimeter of horizontally projected 2D convex hull of point cloud extracted within $\pm 3\,\mathrm{cm}$ of breast height |
+| 6 | Girth | m | The radius obtained by fitting a cylinder to the point cloud within a breast height tolerance of $\pm 3 \, \mathrm{cm} $  (if failed, $\pm 20 \, \mathrm{cm}$ ), multiplied by $2\pi$ . ~~**Deprecated due to unstablility**:  The perimeter of horizontally projected 2D convex hull of point cloud extracted within $\pm 3\,\mathrm{cm}$ of breast height~~ |
 | 7 | Ground diameter | cm | $\mathrm{GD} \approx 2\left(r_u + \frac{(r_l-r_u)(h_u-0.2)}{h_u-h_l}\right)$, where $r_l$ ($r_u$) and $h_l$ ($h_u$) are the radius and aboveground height of the lower (upper) section of the trunk segment passing through $0.2 \, \mathrm{m}$ above ground |
 | 8 | Bole height | m | **Base height** of the first main branch |
 | 9 | Diameter at bole height | cm | Twice the radius of the *bole top* (the highest node on the trunk path that is lower than the **bole height**) |
